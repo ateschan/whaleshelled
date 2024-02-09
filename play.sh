@@ -6,5 +6,5 @@
 #docker kill $containers &&
 
 cargo build --release &&
-docker build -t whaleshell . && 
-docker run -it --rm whaleshell /bin/bash 
+docker build -t whaleshelled . && 
+docker run -it --rm whaleshelled /bin/bash 
