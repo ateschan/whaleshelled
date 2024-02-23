@@ -18,7 +18,7 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
 ENV PATH="/root/.cargo/bin:${PATH}"
 
 # Just dumping the rust binary at the home dir 
-COPY target/release/whaleshell .
+COPY target/release/whaleshelled .
 
 # Expose SSH port
 EXPOSE 22
