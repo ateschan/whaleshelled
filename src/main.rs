@@ -1,4 +1,5 @@
 //Ratatui example added
+mod state;
 
 use std::io::{self, stdout};
 
