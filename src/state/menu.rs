@@ -1,5 +1,7 @@
-use crate::state::games::hello_world::games_fn;
+// This file will be a state loop where the user has an option menu.
+// There will be an introduction state loop, and a game menu state loop.
+// Remember this is a state machine with outro handling exit and shutdown.
 
-pub fn super_cool_fn() {
-    games_fn();
-}
+use crate::scripter;
+
+pub fn super_cool_fn() {}

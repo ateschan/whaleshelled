@@ -1,4 +1,13 @@
 //Ratatui example added
+//
+// TODO: write out a way to navigate intro menu
+//
+// TODO: write out the 'main' game screen
+//
+// TODO: write out the functionality to run and check bash scripts against answer key in struct
+//
+
+mod scripter;
 mod state;
 
 use std::io::{self, stdout};
