@@ -1,4 +1,4 @@
-use crate::scripter::file::File;
+use crate::scripter::fs::File;
 
 pub struct Game {
     pub name: String,
